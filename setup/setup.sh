@@ -62,7 +62,7 @@ SYSTEMD_SERVICE_PATH=/etc/systemd/system
 cat > /etc/hassio.json <<- EOF
 {
     "supervisor": "${HASSIO_DOCKER}",
-    "homeassistant": "homeassistant/qemux86-64-homeassistant",
+    "homeassistant": "homeassistant/qemuarm-64-homeassistant",
     "data": "/usr/share/hassio"
 }
 EOF
