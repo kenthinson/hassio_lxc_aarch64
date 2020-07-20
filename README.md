@@ -1,3 +1,4 @@
+# WORK IN PROGRESS UNTESTED
 # Home Assistant in Ubuntu 64Bit ARM
 
 Many benefits can be gained by using a LXC container compared to a VM. The resources needed to run a LXC container are less than running a VM. Modifing the resouces assigned to the LXC container can be done without having to reboot the container. The serial devices connected to Proxmox can be shared with multiple LXC containers simulatenously.
