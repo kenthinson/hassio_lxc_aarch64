@@ -55,7 +55,7 @@ sh <(curl -sSL https://get.docker.com) &>/dev/null
 
 # Install Home Assistant Supervisor
 msg "Installing Home Assistant Supervisor..."
-HASSIO_DOCKER=homeassistant/amd64-hassio-supervisor
+HASSIO_DOCKER=homeassistant/aarch64-hassio-supervisor
 HASSIO_SERVICE=hassio-supervisor.service
 HASSIO_VERSION=$(curl -s https://version.home-assistant.io/stable.json | jq -e -r '.supervisor')
 SYSTEMD_SERVICE_PATH=/etc/systemd/system
